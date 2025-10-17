@@ -73,8 +73,8 @@ const Banner = () => {
       {/* Right Section */}
       <div className="flex justify-center md:justify-end">
         <img
-          className="w-52 sm:w-64 md:w-80 lg:w-96 rounded-full object-cover"
-          src=""
+          className="w-52 sm:w-64 md:w-80  rounded-full object-cover"
+          src="https://i.ibb.co/LDcvSgyq/picture.png"
           alt="Md. Hasnat"
         />
       </div>
