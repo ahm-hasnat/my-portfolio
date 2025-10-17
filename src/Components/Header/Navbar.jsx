@@ -37,7 +37,10 @@ const Navbar = () => {
 
       let current = "home";
 
-      if (location.pathname.startsWith("/projects/") && location.pathname !== "/projects") {
+      if (
+        location.pathname.startsWith("/projects/") &&
+        location.pathname !== "/projects"
+      ) {
         current = "projects";
       } else {
         navItems.forEach((id) => {
@@ -62,14 +65,17 @@ const Navbar = () => {
   }, [location.pathname]);
 
   const displayedNavItems =
-    location.pathname.startsWith("/projects/") && location.pathname !== "/projects"
+    location.pathname.startsWith("/projects/") &&
+    location.pathname !== "/projects"
       ? ["home", "projects"]
       : navItems;
 
   return (
     <div
       className={`navbar bg-base-100 fixed top-0 left-0 right-0 
-        z-50 px-6 lg:px-20 py-2 transition-shadow duration-300 ${scrolled ? "shadow-lg" : ""}`}
+        z-50 px-6 lg:px-20 py-2 transition-shadow duration-300 ${
+          scrolled ? "shadow-lg" : ""
+        }`}
     >
       {/* Logo */}
       <div className="navbar-start">
@@ -86,7 +92,9 @@ const Navbar = () => {
               <button
                 onClick={() => handleScroll(item)}
                 className={`transition-colors font-medium ${
-                  active === item ? "text-[#FF6B00] underline" : "hover:text-[#FF6B00]"
+                  active === item
+                    ? "text-[#FF6B00] underline"
+                    : "hover:text-[#FF6B00]"
                 }`}
               >
                 {item.toUpperCase()}
@@ -108,7 +116,12 @@ const Navbar = () => {
 
       {/* Hire Me Button for Desktop */}
       <div className="navbar-end hidden lg:flex">
-        <a className="btn1 cursor-pointer flex items-center">
+        <a
+          href="https://wa.me/8801605587523?text=Hi%20Hasnat,%20I%20want%20to%20hire%20you!"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn1 cursor-pointer flex items-center"
+        >
           HIRE ME
           <IoIosArrowForward className="text-xl font-bold" />
         </a>
@@ -122,7 +135,9 @@ const Navbar = () => {
               key={item}
               onClick={() => handleScroll(item)}
               className={`transition-colors font-medium ${
-                active === item ? "text-[#FF6B00] underline" : "hover:text-[#FF6B00]"
+                active === item
+                  ? "text-[#FF6B00] underline"
+                  : "hover:text-[#FF6B00]"
               }`}
             >
               {item.toUpperCase()}
@@ -130,7 +145,12 @@ const Navbar = () => {
           ))}
 
           {/* Mobile Hire Me */}
-          <a className="btn1 cursor-pointer flex items-center mt-2">
+          <a
+            href="https://wa.me/8801605587523?text=Hi%20Hasnat,%20I%20want%20to%20hire%20you!"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn1 cursor-pointer flex items-center mt-2"
+          >
             HIRE ME
             <IoIosArrowForward className="text-xl font-bold ml-2" />
           </a>

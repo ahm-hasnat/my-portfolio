@@ -41,7 +41,7 @@ const Banner = () => {
           <h3 className="primary font-semibold text-md">CONNECT WITH ME</h3>
           <div className="flex items-center justify-center md:justify-start gap-6 mt-3">
             <a
-              href="https://facebook.com/yourprofile"
+              href="https://www.facebook.com/m.hasnat.0.0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800 transition-transform transform hover:scale-125"
@@ -50,7 +50,7 @@ const Banner = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/md-hasnat-3b4b98210/"
+              href="https://www.linkedin.com/in/m-hasnat-94b3ab38b/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#0A66C2] hover:text-blue-600 transition-transform transform hover:scale-125"
@@ -59,7 +59,7 @@ const Banner = () => {
             </a>
 
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/ahm-hasnat"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-black transition-transform transform hover:scale-125"
