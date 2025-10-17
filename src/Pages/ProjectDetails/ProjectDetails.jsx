@@ -23,7 +23,7 @@ const projects = [
     name: "Micro Tasking & Earning Platform",
     date: "Oct 2025",
     description:
-      "A modern and interactive Micro Tasking & Earning Platform where Workers, Buyers, and Admins come together to create, complete, and manage small tasks efficiently",
+      "A modern and interactive Micro Tasking & Earning Platform where Workers, Buyers, and Admins come together to create, complete, and manage small tasks efficiently.The platform emphasizes real-time collaboration, secure transactions, and user-friendly design to create a seamless micro-tasking ecosystem.",
     technologies: [
       "React",
       "Node.js",
@@ -32,8 +32,8 @@ const projects = [
       "TailwindCSS",
       "Firebase",
     ],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://work-nest-dfcbc.web.app/",
+    githubLink: "https://github.com/ahm-hasnat/assignment-12-work-nest-client",
     challenges: [
       "Implementing authentication and authorization flows securely.",
       "Optimizing performance for large datasets and queries.",
@@ -51,7 +51,7 @@ const projects = [
     name: "Artifact showcase",
     date: "Sep 2025",
     description:
-      "A dynamic and interactive web platform where users can explore historical artifacts, browse featured collections, add their own artifacts, and manage their personal contributions.",
+      "A dynamic and interactive web platform where users can explore historical artifacts, browse featured collections, add their own artifacts, and manage their personal contributions.Whether you're a history enthusiast, researcher, or casual explorer, It makes discovering and managing artifacts simple and engaging!",
     technologies: [
       "React",
       "Node.js",
@@ -60,8 +60,8 @@ const projects = [
       "TailwindCSS",
       "Firebase",
     ],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://assignmen-11-artify.netlify.app/",
+    githubLink: "https://github.com/ahm-hasnat/artify-client",
     challenges: [
       "Handling complex data relationships.",
       "Responsive design for collections.",
@@ -77,10 +77,10 @@ const projects = [
     name: "Gardening Community Platform",
     date: "Aug 2025",
     description:
-      "A platform connecting gardening enthusiasts, allowing users to share tips, sell plants, and collaborate on gardening projects.",
+      "A platform connecting gardening enthusiasts, allowing users to share tips, sell plants, and collaborate on gardening projects.Users can browse tips from others, contribute their own, and build their profile as a knowledgeable gardener. With a clean, modern UI and smooth user interactions, Plant Tribe promotes sustainable gardening and peer-to-peer learning.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://assignment-10-plant-tribe.netlify.app/",
+    githubLink: "https://github.com/ahm-hasnat/plant-tribe-client",
     challenges: [
       "Implementing real-time collaboration.",
       "Optimizing image uploads.",
