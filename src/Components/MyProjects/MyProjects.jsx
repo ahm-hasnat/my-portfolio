@@ -34,7 +34,7 @@ const projects = [
 
 const MyProjects = () => {
   return (
-    <div className="max-w-6xl mx-auto my-16 mt-24 px-7" id="projects">
+    <div className="max-w-6xl mx-auto my-16 px-7 overflow-x-hidden" id="projects">
       <h1 className="text-3xl font-semibold text-center mb-2 primary">
         My <span className="text-[#FF6B00]">Projects</span>
       </h1>
@@ -42,7 +42,7 @@ const MyProjects = () => {
         Here are some of the projects I've worked on recently. Click to view
         more details.
       </p>
-      <div className="space-y-16">
+      <div className="space-y-5">
         {projects.map((project, index) => {
           const isEven = index % 2 === 0;
           return (

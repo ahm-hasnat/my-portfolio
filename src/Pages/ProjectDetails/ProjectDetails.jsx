@@ -126,7 +126,7 @@ const ProjectDetails = () => {
         <img
           src={project.image}
           alt={project.name}
-          className="w-full h-96 bg-center object-center"
+          className="w-full h-120 bg-center object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
       </div>

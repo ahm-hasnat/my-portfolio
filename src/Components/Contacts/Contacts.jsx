@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Contacts = () => {
   return (
     <motion.div
-      className="max-w-6xl mx-auto my-30 px-7 flex flex-col lg:flex-row gap-10"
+      className="max-w-6xl mx-auto my-24 px-7 flex flex-col lg:flex-row gap-10"
       id="contact"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -17,7 +17,7 @@ const Contacts = () => {
         <h1 className="text-lg font-medium text-start mb-5 primary border-l-4 border-[#FF6B00] pl-4">
           Contact Me
         </h1>
-        <p className="text-start font-bold primary mb-12 text-4xl">
+        <p className="text-start font-bold primary mb-12 text-3xl">
           Feel free to reach out for collaborations or just a chat!
         </p>
         {/* Phone */}
@@ -53,7 +53,7 @@ const Contacts = () => {
               rel="noopener noreferrer"
               className="text-md font-bold primary hover:underline"
             >
-              +8801737779323
+              +8801605587523
             </a>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Contacts = () => {
               href="mailto:m.hasnat.0@gmail.com"
               className="text-md font-bold primary hover:underline"
             >
-              m.hasnat.0@gmail.com
+              ahm.hasnat.0@gmail.com
             </a>
           </div>
         </div>

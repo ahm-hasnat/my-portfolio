@@ -5,8 +5,9 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="flex max-w-6xl mx-auto flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-16
-     min-h-screen text-center md:text-left mt-24 px-7">
+    <div className="flex max-w-6xl mx-auto flex-col-reverse md:flex-row 
+    items-center justify-between gap-10 md:gap-16
+      text-center md:text-left mt-36 px-7">
       {/* Left Section */}
       <div className="text-start space-y-4 max-w-2xl">
         <h3 className="text-lg font-medium text-[#4D4D4D] mb-3">HELLO, I'M</h3>
