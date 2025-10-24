@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Contacts = () => {
   return (
     <motion.div
-      className="max-w-6xl mx-auto my-30 px-5 flex flex-col lg:flex-row gap-10"
+      className="max-w-6xl mx-auto my-30 px-7 flex flex-col lg:flex-row gap-10"
       id="contact"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}

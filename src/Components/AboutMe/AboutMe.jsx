@@ -45,7 +45,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <div className="my-16 max-w-6xl mx-auto px-2 " id="about">
+    <div className="my-16 max-w-6xl mx-auto px-7 " id="about">
       <h1 className="text-3xl font-semibold mb-12 text-start primary">
         About Me
       </h1>

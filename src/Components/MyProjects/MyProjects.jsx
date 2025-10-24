@@ -34,8 +34,8 @@ const projects = [
 
 const MyProjects = () => {
   return (
-    <div className="max-w-6xl mx-auto my-16 mt-24 px-5" id="projects">
-      <h1 className="text-3xl font-semibold text-center mb-6 primary">
+    <div className="max-w-6xl mx-auto my-16 mt-24 px-7" id="projects">
+      <h1 className="text-3xl font-semibold text-center mb-2 primary">
         My <span className="text-[#FF6B00]">Projects</span>
       </h1>
       <p className="text-center text-gray-600 mb-12">

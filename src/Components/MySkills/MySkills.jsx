@@ -34,7 +34,7 @@ const allSkills = [
 
 const MySkills = () => {
   return (
-    <div className="max-w-6xl mx-auto my-16 mt-24 px-5" id="skills">
+    <div className="max-w-6xl mx-auto my-16 mt-24 px-7" id="skills">
       <h1 className="text-3xl font-semibold mt-20 mb-10 primary text-center">
         My Ski<span className="text-[#FF6B00]">ll</span>s
       </h1>

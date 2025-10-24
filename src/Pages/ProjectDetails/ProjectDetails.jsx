@@ -93,7 +93,7 @@ const projects = [
   },
 ];
 
-// Map tech names to icons (use functions to avoid JSX error)
+
 const techIcons = {
   React: () => <FaReact className="text-blue-500" />,
   "Next.js": () => <SiNextdotjs className="text-black" />,
@@ -116,28 +116,29 @@ const ProjectDetails = () => {
     return <p className="text-center mt-20 text-xl">Project not found.</p>;
 
   return (
-    <div className="max-w-6xl mx-auto px-5 my-16 mt-24">
+    <div className="max-w-6xl mx-auto px-7 my-16 mt-24">
 
          <Helmet>
                 <title>Hasnat - project</title>
             </Helmet>
       {/* Hero Section */}
-      <div className="relative rounded-2xl overflow-hidden shadow-lg mb-12">
+      <div className="relative rounded-2xl overflow-hidden shadow-lg mb-2 ">
         <img
           src={project.image}
           alt={project.name}
-          className="w-full h-96 object-cover"
+          className="w-full h-96 bg-center object-center"
         />
-        <div className="absolute inset-0 bg-[rgba(0,0,0,0.51)] flex flex-col justify-center 
-        items-center gap-10 text-center text-white px-4">
-          <h1 className="text-4xl font-bold mb-2">{project.name}</h1>
-          <p className="text-lg mb-4">{project.date}</p>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
+      </div>
+      <div className=" flex flex-col justify-center 
+        items-center gap-2 text-center px-2">
+         
           <div className="flex gap-4">
             <a
               href={project.liveLink}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 bg-[#FF6B00] px-4 py-2 rounded hover:text-[#e55a00] hover:bg-black transition"
+              className="flex text-white items-center gap-2 bg-[#FF6B00] px-4 py-2 rounded hover:text-[#e55a00] hover:bg-black transition"
             >
               Live Project <FaExternalLinkAlt />
             </a>
@@ -145,14 +146,14 @@ const ProjectDetails = () => {
               href={project.githubLink}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded hover:bg-gray-700 transition"
+              className="flex text-white items-center gap-2 bg-gray-800 px-4 py-2 rounded hover:bg-gray-700 transition"
             >
               GitHub Client <FaGithub />
             </a>
           </div>
+           <h1 className="text-3xl font-bold mb-2 mt-8">{project.name}</h1>
+          <p className="text-lg mb-8">{project.date}</p>
         </div>
-      </div>
-
       {/* Technology Stack */}
       <div className="mb-12">
         <h2 className="text-2xl font-semibold mb-6">Technology Stack</h2>
