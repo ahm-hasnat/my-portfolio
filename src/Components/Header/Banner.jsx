@@ -5,9 +5,11 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="flex max-w-6xl mx-auto flex-col-reverse md:flex-row 
+    <div
+      className="flex max-w-6xl mx-auto flex-col-reverse md:flex-row 
     items-center justify-between gap-10 md:gap-16
-      text-center md:text-left mt-36 px-7">
+      text-center md:text-left mt-36 px-7"
+    >
       {/* Left Section */}
       <div className="text-start space-y-4 max-w-2xl">
         <h3 className="text-lg font-medium text-[#4D4D4D] mb-3">HELLO, I'M</h3>
@@ -35,10 +37,15 @@ const Banner = () => {
           explore new technologies.
         </p>
 
-        <button className="btn flex items-center gap-2 text-white bg-[#FF6B00]
-         hover:bg-black hover:text-[#FF6B00] px-5 py-2 rounded transition">
+        <a
+          href="https://drive.google.com/file/d/12XQDRQx-JkWhTVHb-D5RlyDw1_lvStZJ/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn flex items-center gap-2 text-white bg-[#FF6B00]
+         hover:bg-black hover:text-[#FF6B00] px-5 py-2 w-fit rounded transition"
+        >
           <LuDownload /> Download Resume
-        </button>
+        </a>
 
         <div className="mt-6">
           <h3 className="primary font-semibold text-md">CONNECT WITH ME</h3>
