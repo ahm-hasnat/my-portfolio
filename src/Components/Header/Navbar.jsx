@@ -72,8 +72,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar bg-base-100 fixed top-0 left-0 right-0 
-        z-50 px-6 lg:px-20 py-2 transition-shadow duration-300 ${
+      className={`navbar max-w-6xl mx-auto bg-base-100 fixed top-0 left-0 right-0 
+        z-50 px-7 lg:px-20 py-2 transition-shadow duration-300 ${
           scrolled ? "shadow-lg" : ""
         }`}
     >
