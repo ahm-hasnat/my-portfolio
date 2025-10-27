@@ -72,11 +72,12 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar max-w-6xl mx-auto bg-base-100 fixed top-0 left-0 right-0 
-        z-50 px-7 lg:px-20 py-2 transition-shadow duration-300 ${
+      className={`navbar px-0 bg-base-100 fixed top-0 left-0 right-0 
+        z-50  py-2 transition-shadow duration-300 ${
           scrolled ? "shadow-lg" : ""
         }`}
     >
+      <div className="w-6xl mx-auto px-7 flex items-center justify-between">
       {/* Logo */}
       <div className="navbar-start">
         <a className="text-4xl font-bold">
@@ -156,6 +157,7 @@ const Navbar = () => {
           </a>
         </div>
       )}
+      </div>
     </div>
   );
 };
